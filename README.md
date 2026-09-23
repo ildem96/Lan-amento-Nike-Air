@@ -25,6 +25,5 @@ A página apresenta uma chamada de lançamento dividida em dois blocos: uma áre
 O projeto combina uma base clara e neutra com uma área de produto em fundo azul acinzentado. A fonte Poppins reforça o aspecto contemporâneo da página, enquanto as transições de escala e rotação adicionam sensação de movimento ao tênis e aos elementos de interação.
 
 > Projeto desenvolvido para fins de estudo.
-![preview](https://github.com/user-attachments/assets/bfca4b34-ca13-45a0-8321-edf026f8707b />
-)
+![preview](https://github.com/user-attachments/assets/bfca4b34-ca13-45a0-8321-edf026f8707b)
 

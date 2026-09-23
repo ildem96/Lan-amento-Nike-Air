@@ -25,4 +25,6 @@ A página apresenta uma chamada de lançamento dividida em dois blocos: uma áre
 O projeto combina uma base clara e neutra com uma área de produto em fundo azul acinzentado. A fonte Poppins reforça o aspecto contemporâneo da página, enquanto as transições de escala e rotação adicionam sensação de movimento ao tênis e aos elementos de interação.
 
 > Projeto desenvolvido para fins de estudo.
-[preview]([https://codepen.io/editor/Ildem96/pen/01a0cba3-a9b1-7a29-b084-97229c32d0f1](https://codepen.io/editor/Ildem96/pen/01a0cba3-a9b1-7a29-b084-97229c32d0f1))
+![preview](<img width="1098" height="678" alt="{998DAFDD-AECA-4A2A-97D3-A1A3C0848749}" src="https://github.com/user-attachments/assets/bfca4b34-ca13-45a0-8321-edf026f8707b" />
+)
+

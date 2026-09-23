@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <style type="text/tailwindcss">
+      @theme {
+        --font-nova: "Poppins", sans-serif;
+        --background-image-imgBack: url("assets/bg.png");
+        --background-image-tenis: url("assets/tenis.png");
+
+        --animate-flutuar: flutuar 3s infinite;
+
+        @keyframes flutuar {
+          0%, 100%: {
+            transform: translateX(0px);
+          }
+          50%: {
+            transform: translateX(8px);
+          }
+        };
+      }
+    </style>
+
+    <title>tenis-nike-lancamento</title>
+  </head>
+  <body class="w-full h-full font-nova overflow-hidden">
+    <div class="w-full h-screen bg-slate-300 flex items-center justify-center">
+      <main
+        class="bg-white h-135 w-full max-w-4xl shadow-lg flex flex-col items-center justify-center md:flex-row"
+      >
+        <!--Esquerda-->
+        <div class="w-full h-full flex flex-col md:w-1/2">
+          <div class="w-full shrink-0">
+            <h3 class="hidden md:block text-sm ml-4 font-bold mt-4">
+             Para fins de estudo
+            </h3>
+          </div>
+
+          <div class="flex flex-1 items-center justify-center group">
+            <div class="mb-2">
+              <h1 class="text-5xl font-bold mb-2 select-none">
+                Lançamento <br />
+                <p class="group-hover:animate-pulse">Nike Air.</p>
+              </h1>
+              <p class="mb-1">O tênis do futuro.</p>
+              <p class="mb-7">O futuro a um passo do seu alcance</p>
+              <a
+                href="#"
+                class="font-bold bg-zinc-800 text-white py-2 px-5 rounded-sm border-2 border-zinc-800 duration-300 ease-in-out hover:bg-white hover:text-zinc-800"
+                >Saiba mais</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!--Direita-->
+        <div
+          class="w-full h-full md:w-1/2 bg-imgBack bg-center bg-cover flex items-center justify-center"
+        >
+          <img
+            src="assets/tenis.png"
+            alt=""
+            class="max-w-lg w-11/12 md:w-full object-cover z-30 duration-300 hover:-rotate-6 hover:scale-110 md:hover:scale-125"
+          />
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
